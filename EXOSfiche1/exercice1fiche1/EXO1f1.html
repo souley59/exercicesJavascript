@@ -1,0 +1,55 @@
+<!--Exercice 1
+Créer une page web qui permet d’afficher l’image suivante :https://i.dlpng.com/static/png/1209960-photography-photography-camera-photography-vector-png-and-vector-photography-png-260_260_preview.png
+L’utilisateur doit être capable de:
+1. modifier la couleur du fond de l’image à partir une sélection de 10 couleurs;
+2. modifier la largeur et la longueur de l’image;
+3. modifier la position de l’image dans la page -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo1</title>
+    <link rel="stylesheet" href="EXO1f1.css">
+</head>
+
+<body>
+    <p>Drag the image into the square:</p>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+    <img id="image" src="SeekPng.png" alt="" draggable="true" ondragstart="drag(event)" width="200"><br>
+
+    <input type="color" id="colorInputColor" title="changer la couleur de l'image" onblur="changeColor()" />
+
+    <br>
+    <div id="commande">
+        <label id="saisie">
+            changed width image :
+
+            <input type="range" id="largeW" min="50" max="500" onchange="return changeDimentionL()" /><br>
+            <input type="onsubmit" value="200 pixel" id="numerique" /> <br><br>
+            changed height image :
+            <input type="range" id="largeH" min="50" max="500" onchange="return changeDimentionH()" /><br>
+            <input type="onsubmit" value="200 pixel" id="numeriqueH" />
+        </label>
+        <label id="deplacement">
+            changed position image : <br>
+            horizontalité: <input type="range" id="horizontal" min="0" max="100" onchange=" changePosition()" /><br>
+            verticalité: <input type="range" id="vertical" min="-0" max="100" onchange=" changeVerticalite()" /><br>
+
+        </label>
+    </div>
+    <script src="EXO1f1.js"></script>
+</body>
+
+</html>
+
+</html>
+
+</html>
+
+</html>

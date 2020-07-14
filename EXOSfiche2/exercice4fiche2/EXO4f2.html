@@ -1,0 +1,46 @@
+<!-- Exercice 4 
+Créer le jeu taureau vache. L’utilisateur définit le niveau de difficulté du jeu
+ en saisissant un entier entre 3 et 8. 
+Garder l’historique et le nombre des tentatives -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" href="EXO4f2.css">
+</head>
+
+<body>
+
+    <h1 id="titre">TAUREAU VACHE</h1>
+
+    <input type="" id="ecran">
+
+    <select name="" id="niveau">
+    <option value="3">Tentez en 3 coups! <span>VERY HARD LEVEL</span></option>
+    <option value="4">Tentez en 4 coups! <span>HARD LEVEL</span></option>
+    <option value="5">Tentez en 5 coups! <span>SPORT LEVEL</span></option>
+    <option value="6">Tentez en 6 coups! <span>MEDIUM LEVEL</span></option>
+    <option value="7">Tentez en 7 coups! <span>EASY LEVEL</span></option>
+    <option value="8">Tentez en 8 coups! <span>BIGINNER LEVEL</span></option>
+</select>
+    <div id="blockR">
+        <input type="" id="reponse">
+        <span id="VR"><button id="boutonValider" onclick="clickME()">Valider</button><button id="boutonReset" onclick="reset()"> Reset </button></span>
+        </input><br>
+    </div>
+    <p>Nombre d'essai:
+        <a id="clicks">0</a><br> valeurs saisies:
+        <a id="saisies"></a>
+
+    </p>
+
+    <script src="EXO4f2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+#center {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    margin-right: 10px;
+}

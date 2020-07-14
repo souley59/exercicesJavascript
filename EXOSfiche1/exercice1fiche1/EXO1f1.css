@@ -1,0 +1,50 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#div1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+}
+
+#commande {
+    z-index: 2;
+}
+
+#colorInputColor,
+#numerique,
+#large {
+    display: block;
+    margin: auto;
+    width: 200px;
+    margin: auto;
+    z-index: 1;
+}
+
+#saisie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+}
+
+#deplacement {
+    position: absolute;
+    margin: auto;
+    transform: translate(450%, -100%);
+}

@@ -1,0 +1,22 @@
+#heure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2%;
+    height: 20%;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    font-size: 75px;
+    font-weight: 500;
+    color: black;
+    background-color: cyan;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+#date {
+    text-align: center;
+    margin-top: 20%;
+}

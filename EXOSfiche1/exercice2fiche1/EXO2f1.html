@@ -1,0 +1,36 @@
+<!-- Exercice 2
+    Créer une page web qui permet de faire bouger un carreau de 50x50 px
+     dans toutes lesdirection de 50 px à chaque click*/ !DOCTYPE html>
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>EXO2 JS</title>
+
+    <link rel="stylesheet" href="EXO2f1.css">
+</head>
+
+
+<body>
+
+    <header id="direction">
+        <button id="left" onclick="moveleft()"><i class="fa fa-arrow-left"></i></button>
+        <button id="up" onclick="moveup()"><i class="fa fa-arrow-up" ></i></button>
+        <button id="right" onclick="moveright()"><i class="fa fa-arrow-right" ></i></button>
+        <button id="down" onclick="movedown()"><i class="fa fa-arrow-down" ></i></button>
+    </header>
+    <div id="container">
+        <div id="square"></div>
+    </div>
+
+    <script src="EXO2f1.js"></script>
+
+</body>
+
+</html>

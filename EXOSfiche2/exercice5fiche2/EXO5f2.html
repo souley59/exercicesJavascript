@@ -1,0 +1,35 @@
+<!-- Exercice 5
+    Ecrire une page HTML qui permet de calculer l'impôt d’une personne. 
+    Cette dernière doit saisir ces revenus ainsi que son code postale. Méthode de calcul: 
+    Si la personne habite dans le Nord-Pas-de-Calais, elle ne paye rien sinon elle paie la moitié de ces revenus. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO5 fiche2</title>
+
+    <link rel="stylesheet" href="EXO5f2.css">
+</head>
+
+<body>
+
+    <div>
+        <h1 id="titre">Calcul d'Impôt</h1><br>
+        <p>veuillez saisir votre region:</p>
+        <input type="text" id="region">
+        <p>saisir vos revenus:</p>
+        <input type="text" id="revenu"><br>
+        <br>
+        <button id="valider" onclick="calcul()">valider</button>
+        <p>votre impôt est de:</p>
+        <input type="text" id="impot">
+    </div>
+
+    <script src="EXO5f2.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!-- Exercice 7
+Créer une page HTML qui permet de récupérer les informations de l’utilisateur via unformulaire
+ et les afficher dans une nouvelle page récapitulatif suite au submit du formulaire. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO7f2</title>
+
+
+    <link rel="stylesheet" href="EXO7f2.css">
+</head>
+
+<body id="body">
+    <form action="EXO7f2table.html" method="GET" name="formulaire">
+        <label for="">INSCRIPTION</label>
+        <p>veuillez saisir les informations dans les champs correspondant:</p><br>
+        <p>Nom <input type="text" id="Nom" name="Nom"></p><br>
+        <p>Prenom <input type="text" id="Prenom" name="Prenom"></p><br>
+        <p>Mail <input type="text" id="Mail" name="Mail"> </p>
+        <button type="submit" onclick="NewClient()">valider</button><br><br>
+    </form><br><br>
+
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#square {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+#direction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+#up,
+#left,
+#right,
+#down {
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+}

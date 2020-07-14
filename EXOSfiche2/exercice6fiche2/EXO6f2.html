@@ -1,0 +1,36 @@
+<!-- Exercice 6
+Ecrire une page web qui permet de récupérer les informations d’un utilisateur dans untableau.
+ Ces informations sont saisies à partir d’un formulaire. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="EXO6f2.css">
+
+</head>
+
+<body id="body">
+    <form action="" name="formulaire">
+        <label for="">INSCRIPTION</label>
+        <p>veuillez saisir les informations dans les champs correspondant:</p><br>
+        <p>Nom <input type="text" id="Nom" name="Nom"></p><br>
+        <p>Prenom <input type="text" id="Prenom"></p><br>
+        <p>Mail <input type="text" id="Mail"></p>
+    </form><br><br>
+
+    <button onclick="newClient()">valider</button><br><br>
+
+
+    <script src="EXO6f2.js"></script>
+</body>
+
+</html>

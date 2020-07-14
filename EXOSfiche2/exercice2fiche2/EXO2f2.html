@@ -1,0 +1,28 @@
+<!--  Exercice 2
+En utilisant l'événement onchange sur un champ input type="text", 
+assurez-vous quel'utilisateur a saisi le texte correctement: 
+"Je certifie avoir lu les conditions de vente -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo2f2</title>
+
+    <link rel="stylesheet" href="EXO2f2.css">
+</head>
+
+<body>
+
+    <p>Veuillez recopier le texte suivant: "<span id="lire">Je certifie avoir lu les conditions de vente</span>". </p>
+    <input type="text" id="cond" placeholder="Respectez la majuscule de début de phrase." onchange="verif()"><br>
+    <p id="reponse"></p>
+
+    <script src="EXO2f2.js"></script>
+
+</body>
+
+</html>

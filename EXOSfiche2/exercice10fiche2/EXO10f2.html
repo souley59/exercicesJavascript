@@ -1,0 +1,52 @@
+<!-- Exercice 10Créer une page HTML qui permet de faire une “todo-list” 
+Astuce utiliser un tableau pour représenter la liste des courses -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO10f2</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="EXO10f2.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="bar">
+            <h3>To do list</h3>
+            <i class="far fa-file-alt" id="listItem"></i>
+        </div>
+        <div id="block">
+            <select name="" id="activitySelect">
+                <option name="shopping" value="shopping:" id="shopping"> Shopping activity</option>
+                <option name="administrative" value="administrative:" id="administrative"> Administrative activity</option>
+                <option name="sports" value="sports:" id="sports"> Sports activity</option>
+                <option name="works" value="works:" id="works "> Works activity</option>
+            </select><br><br>
+
+
+            <input type="text" id="note" placeholder="saisie de tâche"></input><br><br>
+            <div id="bouttons">
+                <input type="button" id="valider" value="insert list"></input>
+                <input type="button" id="reset" value="reset selected"></input>
+                <input type="button" id="resetAll" value="reset all"></input>
+            </div><br>
+
+            <div id="todo">
+
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="EXO10f2.js"></script>
+
+</body>
+
+</html>
